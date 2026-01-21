@@ -2,14 +2,13 @@
 
 **Falsifying Fama-French with 6,560 Controlled Experiments**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-[![Preregistration](https://img.shields.io/badge/Preregistration-OSF-blue)](https://doi.org/10.5281/zenodo.18304121)
+**Preregistration**: [10.5281/zenodo.18304121](https://doi.org/10.5281/zenodo.18304121)
 
 ## Overview
 
 This repository contains complete replication code for the paper:
 
-> Burk, K.B. (2026). Factor Betas Are Path-Dependent Regression Artifacts: Falsifying Fama-French with 6,560 Controlled Experiments. *SSRN Working Paper*.
+> Burk, K.B. (2026). Factor Betas Are Path-Dependent Regression Artifacts: Falsifying Fama-French with 6,560 Controlled Experiments.
 
 We demonstrate that Fama-French factor loadings fail equivalence tests at an **87% rate** when portfolios hold identical stocks but differ only in exit timing. A random entry strategy with zero information content shows factor loading shifts up to **0.457**. These results prove that factor betas measure return paths, not portfolio holdings, invalidating their use in evaluating timing strategies.
 
@@ -27,10 +26,8 @@ Using controlled experiments where NATIVE and PATIENCE portfolios hold identical
 ├── R/
 │   ├── benchmark_scheduled_exposure_v3_1.R   # Calendar-based benchmark strategies
 │   ├── benchmark_variable_exposure_v3_1.R    # Signal-based benchmark strategies
-│   └── utils/                                 # Helper functions
 ├── data/
 │   └── README.md                              # Data sourcing instructions
-├── results/                                   # Generated outputs (gitignored)
 ├── docs/
 │   └── preregistration.pdf                    # Preregistered hypotheses
 └── README.md
@@ -179,18 +176,9 @@ If you use this code or methodology, please cite:
 @article{burk2026factor,
   title={Factor Betas Are Path-Dependent Regression Artifacts: Falsifying Fama-French with 6,560 Controlled Experiments},
   author={Burk, Kevin B.},
-  journal={SSRN Working Paper},
-  year={2026},
-  doi={10.2139/ssrn.XXXXXXX}
+  year={2026}
 }
 ```
-
-## Preregistration
-
-This study was preregistered prior to data analysis:
-- **DOI**: [10.5281/zenodo.18304121](https://doi.org/10.5281/zenodo.18304121)
-
-The preregistration specifies all hypotheses, statistical tests, and interpretation framework.
 
 ## License
 
